@@ -4,6 +4,7 @@
   "description": "ical implementation to get matches via ical",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/rijenwasschema/knkv-ical#readme",
   "dependencies": {
     "node-ical": "^0.9.2"
+  },
+  "devDependencies": {
+    "typescript": "^3.6.3"
   }
 }
