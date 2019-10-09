@@ -1,0 +1,16 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+      "tslint:recommended"
+  ],
+  "rules": {
+    "quotemark": [true, "single"],
+    "trailing-comma": false,
+    "ordered-imports": false,
+    "arrow-parens": false,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"]
+  },
+  "rulesDirectory": []
+}
