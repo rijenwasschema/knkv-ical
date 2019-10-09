@@ -49,7 +49,9 @@ export interface Match {
   uid: string;
   name: string;
   location: string;
-  start: ical.DateWithTimeZone;
-  end: ical.DateWithTimeZone;
+  start: DateWithTimeZone;
+  end: DateWithTimeZone;
   description: string;
 }
+
+export type DateWithTimeZone = Date & { tz: string };
