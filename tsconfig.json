@@ -1,21 +1,24 @@
 {
-    "compilerOptions": {
-      "target": "es6",
-      "module": "commonjs",
-      "moduleResolution": "node",
-  
-      // Strict rules for the compiler
-      "allowJs": false,
-      "noImplicitAny": true,
-      "noImplicitReturns": true,
-      "noImplicitThis": true,
-      "noUnusedLocals": true,
-      "noUnusedParameters": true,
-      "strict": true,
-      "forceConsistentCasingInFileNames": true,
-  
-      // Emit source maps and declaration files
-      "sourceMap": true,
-      "declaration": true
-    }
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+
+    // Strict rules for the compiler
+    "allowJs": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+
+    // Emit source maps and declaration files
+    "sourceMap": true,
+    "declaration": true,
+
+    // Set outDir for compiled files
+    "outDir": "./lib"
   }
+}
