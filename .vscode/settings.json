@@ -3,7 +3,6 @@
     "exclude": {
       ".git": "",
       ".tscache": "",
-      "**/*.d.ts": true,
       "**/*.js": {
         "when": "$(basename).ts"
       },
