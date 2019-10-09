@@ -1,6 +1,6 @@
 {
   "name": "knkv-ical",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "ical implementation to get matches via ical",
   "main": "lib/knkvIcal.js",
   "types": "lib/knkvIcal.d.ts",
@@ -8,14 +8,17 @@
     "tslint": "tslint --project tsconfig.json",
     "build": "npm run tslint && tsc",
     "prepate": "npm run build",
-    "prepublishOnly" : "npm run tslint",
-    "preversion" : "npm run tslint"
+    "prepublishOnly": "npm run tslint",
+    "preversion": "npm run tslint"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rijenwasschema/knkv-ical.git"
   },
-  "keywords": ["knkv", "sportlink"],
+  "keywords": [
+    "knkv",
+    "sportlink"
+  ],
   "author": "Sander Koenders <sanderkoenders@gmail.com>",
   "license": "MIT",
   "bugs": {
