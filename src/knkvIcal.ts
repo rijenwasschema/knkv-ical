@@ -1,7 +1,7 @@
 import * as ical from 'node-ical';
 
 export default class KnkvIcal {
-  readonly DEFAULT_BASE_URL = 'https://data.sportlink.com/ical-team';
+  private readonly DEFAULT_BASE_URL = 'https://data.sportlink.com/ical-team';
 
   private baseUrl: string;
 
@@ -24,7 +24,7 @@ export default class KnkvIcal {
           resolve(data);
         }
       });
-    })
+    });
   }
 
   private handleResponse(responseBody: ical.CalendarResponse): ical.VEvent[] {
@@ -41,7 +41,7 @@ export default class KnkvIcal {
       start: event.start,
       end: event.end,
       description: event.description
-    }
+    };
   }
 }
 
@@ -50,6 +50,6 @@ export interface Match {
   name: string;
   location: string;
   start: ical.DateWithTimeZone;
-  end: ical.DateWithTimeZone
+  end: ical.DateWithTimeZone;
   description: string;
 }
